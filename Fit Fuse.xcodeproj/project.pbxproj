@@ -1,0 +1,441 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		12596FCC1B7905740051831D /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 12596FCB1B7905740051831D /* AppDelegate.swift */; };
+		12596FCF1B7905740051831D /* Fit_Fuse.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 12596FCD1B7905740051831D /* Fit_Fuse.xcdatamodeld */; };
+		12596FD11B7905740051831D /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 12596FD01B7905740051831D /* ViewController.swift */; };
+		12596FD41B7905740051831D /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 12596FD21B7905740051831D /* Main.storyboard */; };
+		12596FD61B7905740051831D /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 12596FD51B7905740051831D /* Images.xcassets */; };
+		12596FD91B7905740051831D /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 12596FD71B7905740051831D /* LaunchScreen.xib */; };
+		12596FE51B7905750051831D /* Fit_FuseTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 12596FE41B7905750051831D /* Fit_FuseTests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		12596FDF1B7905750051831D /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 12596FBE1B7905740051831D /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 12596FC51B7905740051831D;
+			remoteInfo = "Fit Fuse";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		12596FC61B7905740051831D /* Fit Fuse.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Fit Fuse.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		12596FCA1B7905740051831D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		12596FCB1B7905740051831D /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		12596FCE1B7905740051831D /* Fit_Fuse.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = Fit_Fuse.xcdatamodel; sourceTree = "<group>"; };
+		12596FD01B7905740051831D /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		12596FD31B7905740051831D /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		12596FD51B7905740051831D /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		12596FD81B7905740051831D /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/LaunchScreen.xib; sourceTree = "<group>"; };
+		12596FDE1B7905750051831D /* Fit FuseTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Fit FuseTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		12596FE31B7905750051831D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		12596FE41B7905750051831D /* Fit_FuseTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Fit_FuseTests.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		12596FC31B7905740051831D /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		12596FDB1B7905750051831D /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		12596FBD1B7905740051831D = {
+			isa = PBXGroup;
+			children = (
+				12596FC81B7905740051831D /* Fit Fuse */,
+				12596FE11B7905750051831D /* Fit FuseTests */,
+				12596FC71B7905740051831D /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		12596FC71B7905740051831D /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				12596FC61B7905740051831D /* Fit Fuse.app */,
+				12596FDE1B7905750051831D /* Fit FuseTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		12596FC81B7905740051831D /* Fit Fuse */ = {
+			isa = PBXGroup;
+			children = (
+				12596FCB1B7905740051831D /* AppDelegate.swift */,
+				12596FD01B7905740051831D /* ViewController.swift */,
+				12596FD21B7905740051831D /* Main.storyboard */,
+				12596FD51B7905740051831D /* Images.xcassets */,
+				12596FD71B7905740051831D /* LaunchScreen.xib */,
+				12596FCD1B7905740051831D /* Fit_Fuse.xcdatamodeld */,
+				12596FC91B7905740051831D /* Supporting Files */,
+			);
+			path = "Fit Fuse";
+			sourceTree = "<group>";
+		};
+		12596FC91B7905740051831D /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				12596FCA1B7905740051831D /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		12596FE11B7905750051831D /* Fit FuseTests */ = {
+			isa = PBXGroup;
+			children = (
+				12596FE41B7905750051831D /* Fit_FuseTests.swift */,
+				12596FE21B7905750051831D /* Supporting Files */,
+			);
+			path = "Fit FuseTests";
+			sourceTree = "<group>";
+		};
+		12596FE21B7905750051831D /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				12596FE31B7905750051831D /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		12596FC51B7905740051831D /* Fit Fuse */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 12596FE81B7905750051831D /* Build configuration list for PBXNativeTarget "Fit Fuse" */;
+			buildPhases = (
+				12596FC21B7905740051831D /* Sources */,
+				12596FC31B7905740051831D /* Frameworks */,
+				12596FC41B7905740051831D /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Fit Fuse";
+			productName = "Fit Fuse";
+			productReference = 12596FC61B7905740051831D /* Fit Fuse.app */;
+			productType = "com.apple.product-type.application";
+		};
+		12596FDD1B7905750051831D /* Fit FuseTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 12596FEB1B7905750051831D /* Build configuration list for PBXNativeTarget "Fit FuseTests" */;
+			buildPhases = (
+				12596FDA1B7905750051831D /* Sources */,
+				12596FDB1B7905750051831D /* Frameworks */,
+				12596FDC1B7905750051831D /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				12596FE01B7905750051831D /* PBXTargetDependency */,
+			);
+			name = "Fit FuseTests";
+			productName = "Fit FuseTests";
+			productReference = 12596FDE1B7905750051831D /* Fit FuseTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		12596FBE1B7905740051831D /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0640;
+				ORGANIZATIONNAME = "Nicholas Piccoli";
+				TargetAttributes = {
+					12596FC51B7905740051831D = {
+						CreatedOnToolsVersion = 6.4;
+					};
+					12596FDD1B7905750051831D = {
+						CreatedOnToolsVersion = 6.4;
+						TestTargetID = 12596FC51B7905740051831D;
+					};
+				};
+			};
+			buildConfigurationList = 12596FC11B7905740051831D /* Build configuration list for PBXProject "Fit Fuse" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 12596FBD1B7905740051831D;
+			productRefGroup = 12596FC71B7905740051831D /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				12596FC51B7905740051831D /* Fit Fuse */,
+				12596FDD1B7905750051831D /* Fit FuseTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		12596FC41B7905740051831D /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				12596FD41B7905740051831D /* Main.storyboard in Resources */,
+				12596FD91B7905740051831D /* LaunchScreen.xib in Resources */,
+				12596FD61B7905740051831D /* Images.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		12596FDC1B7905750051831D /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		12596FC21B7905740051831D /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				12596FD11B7905740051831D /* ViewController.swift in Sources */,
+				12596FCF1B7905740051831D /* Fit_Fuse.xcdatamodeld in Sources */,
+				12596FCC1B7905740051831D /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		12596FDA1B7905750051831D /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				12596FE51B7905750051831D /* Fit_FuseTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		12596FE01B7905750051831D /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 12596FC51B7905740051831D /* Fit Fuse */;
+			targetProxy = 12596FDF1B7905750051831D /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		12596FD21B7905740051831D /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				12596FD31B7905740051831D /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		12596FD71B7905740051831D /* LaunchScreen.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				12596FD81B7905740051831D /* Base */,
+			);
+			name = LaunchScreen.xib;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		12596FE61B7905750051831D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.4;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		12596FE71B7905750051831D /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.4;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		12596FE91B7905750051831D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = "Fit Fuse/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		12596FEA1B7905750051831D /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = "Fit Fuse/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		12596FEC1B7905750051831D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = "Fit FuseTests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Fit Fuse.app/Fit Fuse";
+			};
+			name = Debug;
+		};
+		12596FED1B7905750051831D /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = "Fit FuseTests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Fit Fuse.app/Fit Fuse";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		12596FC11B7905740051831D /* Build configuration list for PBXProject "Fit Fuse" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				12596FE61B7905750051831D /* Debug */,
+				12596FE71B7905750051831D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		12596FE81B7905750051831D /* Build configuration list for PBXNativeTarget "Fit Fuse" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				12596FE91B7905750051831D /* Debug */,
+				12596FEA1B7905750051831D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		12596FEB1B7905750051831D /* Build configuration list for PBXNativeTarget "Fit FuseTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				12596FEC1B7905750051831D /* Debug */,
+				12596FED1B7905750051831D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		12596FCD1B7905740051831D /* Fit_Fuse.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				12596FCE1B7905740051831D /* Fit_Fuse.xcdatamodel */,
+			);
+			currentVersion = 12596FCE1B7905740051831D /* Fit_Fuse.xcdatamodel */;
+			path = Fit_Fuse.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
+	};
+	rootObject = 12596FBE1B7905740051831D /* Project object */;
+}
