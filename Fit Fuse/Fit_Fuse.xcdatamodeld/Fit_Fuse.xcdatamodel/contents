@@ -1,4 +1,17 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
-<model name="Test1.xcdatamodel" userDefinedModelVersionIdentifier="" type="com.apple.IDECoreDataModeler.DataModel" documentVersion="1.0" lastSavedToolsVersion="1" systemVersion="11A491" minimumToolsVersion="Automatic" macOSVersion="Automatic" iOSVersion="Automatic">
-    <elements/>
+<model userDefinedModelVersionIdentifier="" type="com.apple.IDECoreDataModeler.DataModel" documentVersion="1.0" lastSavedToolsVersion="7701" systemVersion="14F27" minimumToolsVersion="Automatic" macOSVersion="Automatic" iOSVersion="Automatic">
+    <entity name="TrainingDay" representedClassName="Fit_Fuse.TrainingDay" syncable="YES">
+        <attribute name="day" optional="YES" attributeType="String" syncable="YES"/>
+        <relationship name="trainingDetails" optional="YES" toMany="YES" deletionRule="Nullify" destinationEntity="TrainingDetails" inverseName="trainingDay" inverseEntity="TrainingDetails" syncable="YES"/>
+    </entity>
+    <entity name="TrainingDetails" representedClassName="Fit_Fuse.TrainingDetails" syncable="YES">
+        <attribute name="exerciseName" attributeType="String" syncable="YES"/>
+        <attribute name="repsNumber" attributeType="String" syncable="YES"/>
+        <attribute name="setsNumber" attributeType="String" syncable="YES"/>
+        <relationship name="trainingDay" optional="YES" maxCount="1" deletionRule="Nullify" destinationEntity="TrainingDay" inverseName="trainingDetails" inverseEntity="TrainingDay" syncable="YES"/>
+    </entity>
+    <elements>
+        <element name="TrainingDay" positionX="-45" positionY="0" width="128" height="75"/>
+        <element name="TrainingDetails" positionX="-18" positionY="36" width="128" height="105"/>
+    </elements>
 </model>

@@ -9,11 +9,24 @@
 /* Begin PBXBuildFile section */
 		12596FCC1B7905740051831D /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 12596FCB1B7905740051831D /* AppDelegate.swift */; };
 		12596FCF1B7905740051831D /* Fit_Fuse.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 12596FCD1B7905740051831D /* Fit_Fuse.xcdatamodeld */; };
-		12596FD11B7905740051831D /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 12596FD01B7905740051831D /* ViewController.swift */; };
 		12596FD41B7905740051831D /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 12596FD21B7905740051831D /* Main.storyboard */; };
 		12596FD61B7905740051831D /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 12596FD51B7905740051831D /* Images.xcassets */; };
 		12596FD91B7905740051831D /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 12596FD71B7905740051831D /* LaunchScreen.xib */; };
 		12596FE51B7905750051831D /* Fit_FuseTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 12596FE41B7905750051831D /* Fit_FuseTests.swift */; };
+		12596FEF1B7909B30051831D /* plusbutton.png in Resources */ = {isa = PBXBuildFile; fileRef = 12596FEE1B7909B30051831D /* plusbutton.png */; };
+		12596FF11B7910750051831D /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 12596FF01B7910750051831D /* ViewController.swift */; };
+		12596FF31B79111E0051831D /* minusbutton.png in Resources */ = {isa = PBXBuildFile; fileRef = 12596FF21B79111E0051831D /* minusbutton.png */; };
+		12596FF51B7914500051831D /* new.png in Resources */ = {isa = PBXBuildFile; fileRef = 12596FF41B7914500051831D /* new.png */; };
+		12596FFA1B79B4060051831D /* day.png in Resources */ = {isa = PBXBuildFile; fileRef = 12596FF91B79B4060051831D /* day.png */; };
+		12596FFC1B79BE2A0051831D /* pix1.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 12596FFB1B79BE2A0051831D /* pix1.jpg */; };
+		12596FFE1B79BF9A0051831D /* StartWorkoutViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 12596FFD1B79BF9A0051831D /* StartWorkoutViewController.swift */; };
+		1271A2391B7CD53400FB499E /* ViewExercisesViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1271A2381B7CD53400FB499E /* ViewExercisesViewController.swift */; };
+		12C2FCF11B7C3A5000B30D4F /* nopainnogain.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 12C2FCF01B7C3A5000B30D4F /* nopainnogain.jpg */; };
+		12C2FCF31B7C3A5D00B30D4F /* hulk.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 12C2FCF21B7C3A5D00B30D4F /* hulk.jpg */; };
+		12C2FCF51B7C3B3E00B30D4F /* no_pain_no_gain-_.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 12C2FCF41B7C3B3E00B30D4F /* no_pain_no_gain-_.jpg */; };
+		12C31BCA1B810E2100D5B79F /* TrainingDay.swift in Sources */ = {isa = PBXBuildFile; fileRef = 12C31BC91B810E2100D5B79F /* TrainingDay.swift */; };
+		12C31BCC1B810E2200D5B79F /* TrainingDetails.swift in Sources */ = {isa = PBXBuildFile; fileRef = 12C31BCB1B810E2200D5B79F /* TrainingDetails.swift */; };
+		12D46D131B7AE58500AFF867 /* ExerciseViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 12D46D121B7AE58400AFF867 /* ExerciseViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -31,13 +44,26 @@
 		12596FCA1B7905740051831D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		12596FCB1B7905740051831D /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		12596FCE1B7905740051831D /* Fit_Fuse.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = Fit_Fuse.xcdatamodel; sourceTree = "<group>"; };
-		12596FD01B7905740051831D /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		12596FD31B7905740051831D /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		12596FD51B7905740051831D /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
 		12596FD81B7905740051831D /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/LaunchScreen.xib; sourceTree = "<group>"; };
 		12596FDE1B7905750051831D /* Fit FuseTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Fit FuseTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		12596FE31B7905750051831D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		12596FE41B7905750051831D /* Fit_FuseTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Fit_FuseTests.swift; sourceTree = "<group>"; };
+		12596FEE1B7909B30051831D /* plusbutton.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = plusbutton.png; path = ../plusbutton.png; sourceTree = "<group>"; };
+		12596FF01B7910750051831D /* ViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		12596FF21B79111E0051831D /* minusbutton.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = minusbutton.png; sourceTree = "<group>"; };
+		12596FF41B7914500051831D /* new.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = new.png; sourceTree = "<group>"; };
+		12596FF91B79B4060051831D /* day.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = day.png; sourceTree = "<group>"; };
+		12596FFB1B79BE2A0051831D /* pix1.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = pix1.jpg; sourceTree = "<group>"; };
+		12596FFD1B79BF9A0051831D /* StartWorkoutViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = StartWorkoutViewController.swift; sourceTree = "<group>"; };
+		1271A2381B7CD53400FB499E /* ViewExercisesViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ViewExercisesViewController.swift; sourceTree = "<group>"; };
+		12C2FCF01B7C3A5000B30D4F /* nopainnogain.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = nopainnogain.jpg; sourceTree = "<group>"; };
+		12C2FCF21B7C3A5D00B30D4F /* hulk.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = hulk.jpg; sourceTree = "<group>"; };
+		12C2FCF41B7C3B3E00B30D4F /* no_pain_no_gain-_.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "no_pain_no_gain-_.jpg"; sourceTree = "<group>"; };
+		12C31BC91B810E2100D5B79F /* TrainingDay.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = TrainingDay.swift; path = ../TrainingDay.swift; sourceTree = "<group>"; };
+		12C31BCB1B810E2200D5B79F /* TrainingDetails.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = TrainingDetails.swift; path = ../TrainingDetails.swift; sourceTree = "<group>"; };
+		12D46D121B7AE58400AFF867 /* ExerciseViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ExerciseViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -80,11 +106,15 @@
 			isa = PBXGroup;
 			children = (
 				12596FCB1B7905740051831D /* AppDelegate.swift */,
-				12596FD01B7905740051831D /* ViewController.swift */,
+				12596FFD1B79BF9A0051831D /* StartWorkoutViewController.swift */,
+				12596FF01B7910750051831D /* ViewController.swift */,
+				1271A2381B7CD53400FB499E /* ViewExercisesViewController.swift */,
+				12D46D121B7AE58400AFF867 /* ExerciseViewController.swift */,
 				12596FD21B7905740051831D /* Main.storyboard */,
 				12596FD51B7905740051831D /* Images.xcassets */,
 				12596FD71B7905740051831D /* LaunchScreen.xib */,
-				12596FCD1B7905740051831D /* Fit_Fuse.xcdatamodeld */,
+				1271A23E1B7CD8DB00FB499E /* CoreData files */,
+				12596FF61B79A4550051831D /* Images */,
 				12596FC91B7905740051831D /* Supporting Files */,
 			);
 			path = "Fit Fuse";
@@ -113,6 +143,31 @@
 				12596FE31B7905750051831D /* Info.plist */,
 			);
 			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		12596FF61B79A4550051831D /* Images */ = {
+			isa = PBXGroup;
+			children = (
+				12C2FCF41B7C3B3E00B30D4F /* no_pain_no_gain-_.jpg */,
+				12C2FCF21B7C3A5D00B30D4F /* hulk.jpg */,
+				12C2FCF01B7C3A5000B30D4F /* nopainnogain.jpg */,
+				12596FF91B79B4060051831D /* day.png */,
+				12596FEE1B7909B30051831D /* plusbutton.png */,
+				12596FF21B79111E0051831D /* minusbutton.png */,
+				12596FF41B7914500051831D /* new.png */,
+				12596FFB1B79BE2A0051831D /* pix1.jpg */,
+			);
+			name = Images;
+			sourceTree = "<group>";
+		};
+		1271A23E1B7CD8DB00FB499E /* CoreData files */ = {
+			isa = PBXGroup;
+			children = (
+				12596FCD1B7905740051831D /* Fit_Fuse.xcdatamodeld */,
+				12C31BC91B810E2100D5B79F /* TrainingDay.swift */,
+				12C31BCB1B810E2200D5B79F /* TrainingDetails.swift */,
+			);
+			name = "CoreData files";
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -195,8 +250,16 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				12596FF51B7914500051831D /* new.png in Resources */,
+				12C2FCF31B7C3A5D00B30D4F /* hulk.jpg in Resources */,
+				12C2FCF11B7C3A5000B30D4F /* nopainnogain.jpg in Resources */,
+				12596FFC1B79BE2A0051831D /* pix1.jpg in Resources */,
 				12596FD41B7905740051831D /* Main.storyboard in Resources */,
+				12596FEF1B7909B30051831D /* plusbutton.png in Resources */,
+				12596FFA1B79B4060051831D /* day.png in Resources */,
 				12596FD91B7905740051831D /* LaunchScreen.xib in Resources */,
+				12596FF31B79111E0051831D /* minusbutton.png in Resources */,
+				12C2FCF51B7C3B3E00B30D4F /* no_pain_no_gain-_.jpg in Resources */,
 				12596FD61B7905740051831D /* Images.xcassets in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -215,9 +278,14 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				12596FD11B7905740051831D /* ViewController.swift in Sources */,
+				12596FF11B7910750051831D /* ViewController.swift in Sources */,
+				12D46D131B7AE58500AFF867 /* ExerciseViewController.swift in Sources */,
+				12C31BCC1B810E2200D5B79F /* TrainingDetails.swift in Sources */,
 				12596FCF1B7905740051831D /* Fit_Fuse.xcdatamodeld in Sources */,
+				12596FFE1B79BF9A0051831D /* StartWorkoutViewController.swift in Sources */,
 				12596FCC1B7905740051831D /* AppDelegate.swift in Sources */,
+				12C31BCA1B810E2100D5B79F /* TrainingDay.swift in Sources */,
+				1271A2391B7CD53400FB499E /* ViewExercisesViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -413,6 +481,7 @@
 				12596FEA1B7905750051831D /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		12596FEB1B7905750051831D /* Build configuration list for PBXNativeTarget "Fit FuseTests" */ = {
 			isa = XCConfigurationList;
@@ -421,6 +490,7 @@
 				12596FED1B7905750051831D /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 

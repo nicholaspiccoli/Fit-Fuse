@@ -7,19 +7,34 @@
 //
 
 import UIKit
+import CoreData
 
 class ViewController: UIViewController {
-
+    
     override func viewDidLoad() {
         super.viewDidLoad()
-        // Do any additional setup after loading the view, typically from a nib.
+        
+        var logo = UIImage(named: "no_pain_no_gain-_.jpg")
+        logoImage.image = logo
+        
+        viewExercisesButton.frame = CGRectMake(-30,250,125,125)
+        viewExercisesButton.addTarget(self, action: "viewExercisesButtonTouch:", forControlEvents: UIControlEvents.TouchDown)
+        viewExercisesButton.setImage(imageViewExercises, forState: .Normal)
+        viewExercisesButton.imageEdgeInsets = UIEdgeInsetsMake(30,30,30,30)
+        self.view.addSubview(viewExercisesButton)
     }
 
-    override func didReceiveMemoryWarning() {
-        super.didReceiveMemoryWarning()
-        // Dispose of any resources that can be recreated.
+    var moc = (UIApplication.sharedApplication().delegate as! AppDelegate).managedObjectContext
+    var fetchedResultsController: NSFetchedResultsController?
+    
+    @IBOutlet var logoImage: UIImageView!
+        
+    var viewExercisesButton = UIButton.buttonWithType(UIButtonType.Custom) as! UIButton
+    var imageViewExercises = UIImage(named: "plusbutton.png")
+    
+    
+    func viewExercisesButtonTouch(sender: UIButton!) {
+              performSegueWithIdentifier("goToDays", sender: self)
+        println("future event will be added, button working fine - view")
     }
-
-
 }
-
